@@ -17,8 +17,11 @@ Know that you will need to open the script in an ide (like visual studio code) b
 BEFORE THE GAME :
 
 To start using the script you will need to enter a few parameters in the user_inputs file (enter the values in the ""):
+
 apiKey  = ""     # get your https://developer.riotgames.com here if you don't have one yet, you will have to renew it every day 
+
 my_region = ""    # simply enter your simplified region here (ex: euw, na, kr, etc)
+
 pseudo = ""      # enter your in game pseudo here 
 
 Once it's done simply launch the script "launcher" from the ide before your game or while your game.  
