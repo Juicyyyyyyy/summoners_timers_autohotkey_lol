@@ -486,7 +486,7 @@ keyMessage = "/The_keys_for_this_game_are_:_%s==%s///%s==%s///%s==%s///%s==%s///
 
 print(keyMessage)
 
-path = os.getcwd()
+path = os.path.dirname(os.path.abspath(__file__))
 
 with open(r""+path+"\script\macro.ahk", 'r') as file :
     filedata = file.read()
